@@ -60,6 +60,9 @@ rag-poc/
     __init__.py
     scrape.py                    # fetch+clean HTML
     build_index.py               # chunk → embed → upsert to Qdrant
+  streamlit_app/
+    __init__.py
+    chat_ui.py                   # Streamlit UI
   app/
     __init__.py
     embeddings_e5.py             # E5 wrapper (query/passages + normalize)
