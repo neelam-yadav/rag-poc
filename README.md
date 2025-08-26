@@ -150,7 +150,7 @@ streamlit run streamlit_app/chat_ui.py
 ```
 
 Ask queries in chatbot:
-[chatbot.mp4](docs%2Fchatbot.mp4)
+![chatbot.gif](docs%2Fchatbot.gif)
 
 
 ## Configuration
