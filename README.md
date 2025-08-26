@@ -134,7 +134,7 @@ python -m pipeline.build_index
 uvicorn app.main:app --reload --port 8000
 ```
 
-### Ask a question:
+#### Test API:
 
 ```bash
 curl -X POST http://localhost:8000/chat \
@@ -143,6 +143,15 @@ curl -X POST http://localhost:8000/chat \
 ```
 
 > Response includes **answer** and **sources** (snippets + source URLs).
+
+### Run the Streamlit UI:
+```bash
+streamlit run streamlit_app/chat_ui.py
+```
+
+Ask queries in chatbot:
+[chatbot.mp4](docs%2Fchatbot.mp4)
+
 
 ## Configuration
 
